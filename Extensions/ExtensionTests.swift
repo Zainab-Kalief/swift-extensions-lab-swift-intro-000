@@ -36,7 +36,7 @@ class StringExtensions: QuickSpec {
             
             it("pigLatin computed property should have ay appended to the string" ) {
 
-                expect(name.pigLatin).to(equal("Osephjay Inglegay Eimerhay Chmittsay"))
+                expect(name.pigLatin).to(equal("Osephjay Inglegay Eimerhay Chmittsay "))
             }
         }
         
@@ -119,7 +119,7 @@ class EmojiFun: QuickSpec {
             
             it("unicornLevel computed property should return unicorns") {
                 let name = "Joseph Gingle Heimer Schmitt"
-                expect(name.unicornLevel).to(equal("🦄🦄🦄🦄🦄🦄 🦄🦄🦄🦄🦄🦄 🦄🦄🦄🦄🦄🦄 🦄🦄🦄🦄🦄🦄🦄"))
+                expect(name.unicornLevel).to(equal("🦄🦄🦄🦄🦄🦄 🦄🦄🦄🦄🦄🦄 🦄🦄🦄🦄🦄🦄 🦄🦄🦄🦄🦄🦄🦄 "))
             }
         }
     }
